@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="loading-screen">
+        <img src="cube.gif" alt="Loading Animation">
+    </div>
     <header>
         <div class="container">
             <div class="name">
@@ -36,7 +39,7 @@
         </div>
     </div>
     <div class="container">
-        <div id="logoholder" class="box animated">
+        <div id="logoholder2" class="box animated">
             
         </div>
     </div>
@@ -148,6 +151,13 @@
             slides[slideIndex-1].style.display = "block";  
             dots[slideIndex-1].className += " active";
         }
+
+        // Simulate loading delay
+        setTimeout(function() {
+            document.getElementById('loading-screen').style.opacity = 0;
+            document.getElementById('content').style.display = 'block';
+        }, 3000); // 3000 milliseconds (3 seconds) delay
+
     </script> 
         <div class="container_4">
             <div class="portfolio-item">

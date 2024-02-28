@@ -394,3 +394,22 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Loading screen styles */
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Change to desired background color */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1.5s ease;
+}
+
+#content {
+    /* Your content container styles */
+}

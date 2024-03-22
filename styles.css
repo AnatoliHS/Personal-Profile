@@ -126,6 +126,11 @@ p{
     margin-top: 10px;
 }
 
+.container_7 {
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
 .img_boarder{
     width: 400px;
     height: 400px;
@@ -319,22 +324,14 @@ nav ul li a {
 }
 
 .portfolio-item img {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     box-shadow:0 0 10px rgb(119, 119, 119);
     border-radius: 50%;
     border-style: solid;
     border-width: 1px;
+    margin-bottom: 10px;
 }
-
- .vid2{
-    width: 100px;
-    height: 100px;
-    box-shadow:0 0 10px rgb(119, 119, 119);
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 1px;
- }
 
 .in {
     border-radius: 12px;
